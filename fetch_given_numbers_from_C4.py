@@ -3,9 +3,9 @@ import json
 import re
 
 # ---- Cosmos DB connection details ----
-url = "https://eg-dk-c4-db-d1.documents.azure.com:443"
-key = "dOwfPDX1lUsnHfX8GjKyHOy3LoTSCE9anY75EmzcrKYHBLuIWX0Rd3bxwJtolHV2BxdPm2s2uBzXACDbDpKVsw=="
-database_name = "ComponentCatalog-ring0"
+url = ""
+key = ""
+database_name = ""
 container_name = "Components"
 
 
@@ -72,3 +72,4 @@ with open(output_file, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
 print(f"✅ Saved {output_file} with cleaned keywords")
+
